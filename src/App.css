@@ -40,5 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+*{background-color: pink;}
 
-
+.App{
+  background-color: pink;
+}
+.main{
+  background-color: pink;
+  color: darkred;
+}
+.result{
+  background-color: pink;
+  color: darkred;
+}

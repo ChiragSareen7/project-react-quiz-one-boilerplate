@@ -2,7 +2,7 @@ import React from 'react'
 
 function ResultComponent() {
   return (
-    <div>
+    <div className='result'>
       <h2>Your Performance</h2>
       <h3>Your score is 20% </h3>
       <div>

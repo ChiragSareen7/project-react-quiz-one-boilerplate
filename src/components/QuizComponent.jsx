@@ -7,7 +7,7 @@ function QuizComponent() {
   return (
     <div className='main'>
       <h1>Questions</h1>
-      {!finish && (
+
         <div>
           <h4>Question number 1 of 15</h4>
           <h3>Who came first?</h3>
@@ -19,13 +19,13 @@ function QuizComponent() {
           </div>
           <br/>
           <div>
-            <button onClick={() => setFinish(true)}>
+            <button>
               End
             </button>
           </div>
         </div>
-      )}
-      {finish && <ResultComponent />}
+      
+      
     </div>
   );
 }
